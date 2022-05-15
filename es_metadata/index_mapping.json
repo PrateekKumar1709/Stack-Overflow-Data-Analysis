@@ -1,0 +1,128 @@
+{
+    "version": 4,
+    "mapping_version": 1,
+    "settings_version": 1,
+    "aliases_version": 1,
+    "routing_num_shards": 1024,
+    "state": "open",
+    "settings": {
+        "index": {
+            "routing": {
+                "allocation": {
+                    "include": {
+                        "_tier_preference": "data_content"
+                    }
+                }
+            },
+            "number_of_shards": "1",
+            "provided_name": "bd22-stackoverflow_data",
+            "creation_date": "1652217924240",
+            "number_of_replicas": "1",
+            "uuid": "7yE0KT9bSCqhqwJe6HsCkg",
+            "version": {
+                "created": "8020099"
+            }
+        }
+    },
+    "mappings": {
+        "_doc": {
+            "properties": {
+                "ParentId": {
+                    "type": "integer"
+                },
+                "CreationDate": {
+                    "type": "date"
+                },
+                "Title": {
+                    "type": "text",
+                    "fields": {
+                        "keyword": {
+                            "ignore_above": 2000,
+                            "type": "keyword"
+                        }
+                    }
+                },
+                "ViewCount": {
+                    "type": "integer"
+                },
+                "OwnerUserId": {
+                    "type": "text",
+                    "fields": {
+                        "keyword": {
+                            "ignore_above": 2000,
+                            "type": "keyword"
+                        }
+                    }
+                },
+                "Score": {
+                    "type": "integer"
+                },
+                "row_idx": {
+                    "type": "long"
+                },
+                "FavoriteCount": {
+                    "type": "integer"
+                },
+                "LastActivityDate": {
+                    "type": "date"
+                },
+                "AnswerCount": {
+                    "type": "integer"
+                },
+                "CommentCount": {
+                    "type": "integer"
+                },
+                "ClosedDate": {
+                    "type": "date"
+                },
+                "Id": {
+                    "type": "long"
+                },
+                "PostTypeId": {
+                    "type": "integer"
+                },
+                "AcceptedAnswerId": {
+                    "type": "text",
+                    "fields": {
+                        "keyword": {
+                            "ignore_above": 2000,
+                            "type": "keyword"
+                        }
+                    }
+                },
+                "Body": {
+                    "type": "text",
+                    "fields": {
+                        "keyword": {
+                            "ignore_above": 2000,
+                            "type": "keyword"
+                        }
+                    }
+                },
+                "Tags": {
+                    "type": "text",
+                    "fields": {
+                        "keyword": {
+                            "ignore_above": 2000,
+                            "type": "keyword"
+                        }
+                    }
+                }
+            }
+        }
+    },
+    "aliases": [],
+    "primary_terms": {
+        "0": 1
+    },
+    "in_sync_allocations": {
+        "0": [
+            "IGBCJXv3RUqFqtQFtIqyXw"
+        ]
+    },
+    "rollover_info": {},
+    "system": false,
+    "timestamp_range": {
+        "unknown": true
+    }
+}

@@ -1,0 +1,18 @@
+{
+    "_index": "bd22-stackoverflow_data",
+    "_id": "sFrdr4ABRhQdS8O5prNI",
+    "_version": 1,
+    "_score": 1,
+    "_source": {
+        "Id": "403751",
+        "PostTypeId": "2",
+        "ParentId": "403750",
+        "CreationDate": "2020-01-13T20:19:41.633",
+        "Score": "11",
+        "Body": " You have to test all the scenarios which are defined in your acceptance criteria lt p gt xA xA When you have an array of options like this I would use Data driven tests lt p gt xA xA lt pre gt lt code gt TestCase quot admin quot quot public quot true xA TestCase quot normal quot quot public quot true xA TestCase quot admin quot quot private quot true xA TestCase quot normal quot quot private quot false xA public void CanFileOpen user file expected xA xA var actual file Open user xA Assert AreEqual actual expected xA xA lt code gt lt pre gt xA xA If you have inputs which are numeric rather than have a set of possible values then you usually test some known results plus the minimum and maximum possible values null etc to check for edge cases lt p gt xA ",
+        "OwnerUserId": "177980",
+        "LastActivityDate": "2020-01-13T20:19:41.633",
+        "CommentCount": "20",
+        "row_idx": 4
+    }
+}
