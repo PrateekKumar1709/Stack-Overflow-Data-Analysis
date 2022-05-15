@@ -3,7 +3,7 @@
 
 ## Overview:
 
-The objective of this project is to analyze stack overflow data using various big data technologies like PySpark, Elasticsearch and Kibana. The data used is from Stack Overflow API which contains Stack Overflow content, including posts, votes, tags, and badges. The analysis of this data can help us answer some questions about the programmer’s general preferences.  ​
+This project aims to analyze stack overflow data using various big data technologies like PySpark, Elasticsearch, and Kibana. The data used is from Stack Overflow API which contains Stack Overflow content, including posts, votes, tags, and badges. The analysis of this data can help us answer some questions about the programmer’s general preferences.
 
 
 ## Architecture:
